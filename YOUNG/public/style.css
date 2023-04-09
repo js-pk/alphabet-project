@@ -1,0 +1,46 @@
+html {
+  font-family:sans-serif;
+  font-size:16px;
+  line-height:28px;
+}
+
+body {
+
+}
+
+.background {
+  position:fixed;
+  top:0; left:0; right:0; bottom:0;
+  padding:16px;
+  font-weight:bold;
+  color:red;
+  width:100%;
+  display:none;
+}
+
+.tweet {
+  position:relative;
+  z-index:9;
+  margin: 0 auto;
+  padding: 48px 24px;
+  max-width:600px;
+  background-color:white;
+}
+
+a {
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.young {
+  color:red;
+/*   font-size:2rem; */
+}
+
+.mention {
+  color:blue;
+}
+
+.link {
+  color:green;
+}

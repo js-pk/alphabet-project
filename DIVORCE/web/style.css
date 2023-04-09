@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans')
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+#container {
+  position:absolute;
+  margin: 0 auto;
+  width: 100vh;
+  height: 100vh;
+  left: calc((100vw - 100vh)/2);
+  z-index:9;
+  /* background-color:red; */
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius:50%;
+}
+
+#background {
+  position:absolute;
+  display: flex;
+  align-items: flex-end;
+  color:black;
+  left:0;
+  bottom:0;
+  font-size:1em;
+  font-family: 'Black Han Sans', sans-serif;
+  word-break:keep-all;
+  text-align:left;
+  //color:#ffa617;
+  width:20vw;
+  height:5vw;
+  padding-left:8px;
+  margin-bottom:8px;
+  overflow:hidden;
+  z-index:0;
+}
+
+#background b {
+  //color:#000cff;
+}

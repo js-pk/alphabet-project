@@ -1,0 +1,21 @@
+{
+  "name": "homeground",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.23.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "concurrently": "^6.3.0",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "http-proxy-middleware": "^2.0.1",
+    "needle": "^3.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "socket.io": "^4.3.0",
+    "socket.io-client": "^4.3.1",
+    "util": "^0.12.4",
+    "web-vitals": "^1.1.2"
+  }
+}

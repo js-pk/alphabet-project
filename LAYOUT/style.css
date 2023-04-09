@@ -1,0 +1,146 @@
+body {
+  margin:0;
+  padding:0;
+  animation-name: backgroundColorPalette;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in; 
+  /* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+}
+
+.wrapper {
+  padding:48px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  line-height:2;
+  
+  animation-name: backgroundColorPalette;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in; 
+  /* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: #111;
+  }
+
+  100% {
+    background: black;
+  }
+}
+
+
+
+.item {
+  background:white;
+  width:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border: 0.1px solid black ;
+  border-radius:99999px;
+  opacity:0.5;
+  cursor:move;
+}
+
+.hovered {
+  opacity:1;
+  background:white;
+  border:1px solid black;
+  font-weight:bold;
+
+}
+
+#_1 {
+  grid-column: 1 /  2;
+  grid-row: 1 / span 2;
+}
+
+#_2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / span 2;
+}
+
+#_3 {
+  grid-column: auto / span 3;
+}
+
+#_7 {
+  grid-column: auto / span 2;
+}
+
+#_8 {
+  grid-column: 1 /  2;
+  grid-row: 1 / span 2;
+}
+
+#_9 {
+  grid-column: 2 / 3;
+  grid-row: 1 / span 2;
+}
+
+#_10 {
+  grid-column: auto / span 2;
+}
+
+#_13 {
+  grid-column: auto / span 4;
+}
+
+#_17 {
+  grid-column: auto / span 2;
+}
+
+#_18 {
+  grid-column: auto / span 5;
+}
+
+#_20 {
+  grid-column: auto / span 9;
+}
+
+#_21 {
+  grid-column: auto / span 3;
+}
+
+#_23, #_30, #_36, #_46 {
+  grid-row: 5 / 9;
+  grid-column: 5 / 6;
+}
+
+#_24 {
+  grid-column: auto / span 3;
+}
+
+#_25 {
+  grid-column: auto / span 2;
+}
+
+#_32 {
+  grid-column: auto / span 2;
+}
+
+#_35 {
+  grid-column: auto / span 4;
+}
+
+#_55, #_61 {
+  grid-row: 9/11;
+  grid-column: 4/5;
+}
+
+#_56 {
+  grid-column: auto / span 5;
+}
+
+#_57, #_67 {
+  grid-row: 9/11;
+  grid-column: 10/11;
+}
+
